@@ -1,5 +1,5 @@
 import { Container, Row, Col, Form } from "react-bootstrap";
-import Job from "../components/Job";
+import Job from "./Job";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
