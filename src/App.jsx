@@ -1,9 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import MainSearch from "./MainSearch";
-import CompanySearchResults from "./CompanySearchResults";
+import MainSearch from "./components/MainSearch";
+import CompanySearchResults from "./components/CompanySearchResults";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Favourites from "./Favourites";
+import Favourites from "./components/Favourites";
 
 function App() {
   return (
